@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tugas 2 - Form Input</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Form Pendaftaran</h2>
+
+<form action="#" method="POST">
+
+    <label>Nama Lengkap :</label>
+    <input type="text" name="nama" placeholder="Masukkan nama..." required>
+    <br><br>
+
+    <label>Password :</label>
+    <input type="password" name="password" placeholder="Masukkan password..." required>
+    <br><br>
+
+    <label>Jurusan :</label>
+    <select name="jurusan">
+        <option value="ti">Teknologi Informasi</option>
+        <option value="si">Sistem Informasi</option>
+        <option value="ilkom">Ilmu Komputer</option>
+    </select>
+    <br><br>
+
+    <label>Jenis Kelamin :</label>
+    <br>
+    <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+    <input type="radio" name="gender" value="Perempuan"> Perempuan
+    <br><br>
+
+    <label>Hobi :</label>
+    <br>
+    <input type="checkbox" name="hobi" value="Coding"> Coding
+    <input type="checkbox" name="hobi" value="Membaca"> Membaca
+    <input type="checkbox" name="hobi" value="Gaming"> Gaming
+    <br><br>
+
+    <label>Alamat :</label>
+    <br>
+    <textarea name="alamat" rows="4" placeholder="Masukkan alamat lengkap..."></textarea>
+    <br><br>
+
+    <input type="submit" value="Kirim Data">
+
+</form>
+
+</div>
+
+</body>
+</html>

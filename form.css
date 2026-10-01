@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: #eef2ff;
+    font-family: Arial;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    width: 400px;
+    padding: 25px;
+    border: 0;
+    border-radius: 15px;
+    background: white;
+}
+
+.form-input input,
+.form-input textarea,
+.form-input select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+}
+
+.btn-daftar {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: #6366f1;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+}
+
+.buttons button {
+    width: 42px;
+    height: 42px;
+    margin: 3px;
+}
